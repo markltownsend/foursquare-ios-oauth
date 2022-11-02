@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "Mitchell Livingston" => "mitch@foursquare.com" }
   s.source       = { :git => "https://github.com/foursquare/foursquare-ios-oauth.git",:tag => '1.3' }
   s.platform     = :ios
-  s.source_files = 'FSOAuth.{h,m}'
+  s.source_files = 'Sources/FSOAuth/**/FSOAuth.{h,m}'
   s.requires_arc = true
 end
