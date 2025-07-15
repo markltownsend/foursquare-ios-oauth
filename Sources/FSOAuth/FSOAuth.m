@@ -104,8 +104,8 @@
         }
     }
     
-    [sharedApplication openURL:authURL];
-    
+    [sharedApplication openURL:authURL options:@{} completionHandler:nil];
+
     return FSOAuthStatusSuccess;
 }
 
